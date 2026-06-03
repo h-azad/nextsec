@@ -1,0 +1,21 @@
+{
+  "name": "nextsec",
+  "version": "0.1.0",
+  "description": "Next.js security scanner CLI with local dependency audit and static rules.",
+  "type": "module",
+  "bin": {
+    "nextsec": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "test": "npm run build && node --test dist/**/*.test.js",
+    "db:update": "node dist/scripts/db-update.js data/exploitdb-web.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
