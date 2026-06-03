@@ -1,0 +1,18 @@
+[
+  {
+    "packageName": "next",
+    "vulnerableRange": "<14.2.10",
+    "severity": "high",
+    "title": "Example local advisory for outdated Next.js versions",
+    "cve": "CVE-LOCAL-NEXT-001",
+    "patchedVersion": "14.2.10"
+  },
+  {
+    "packageName": "lodash",
+    "vulnerableRange": "<4.17.21",
+    "severity": "high",
+    "title": "Prototype pollution in lodash",
+    "cve": "CVE-2021-23337",
+    "patchedVersion": "4.17.21"
+  }
+]
